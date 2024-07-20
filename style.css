@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.navbar{
+    background-color: rgb(11, 11, 125);
+}
+
+.navbar .navbar-brand{
+    color: rgb(199, 20, 20);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.navbar .navbar-brand span{
+    color: rgb(161, 138, 11);
+}
+.navbar .nav-link{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar .nav-link:hover{
+    color: rgb(199, 20, 20);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.btn1{
+    width: 100px;
+    height: 61px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 700;
+    color: white;
+    border-style: none;
+}
+.btn1:hover{
+    background-color: rgb(199, 20, 20);
+    transition: 0.5s;
+}
+.btn2{
+    width: 100px;
+    height: 61px;
+    border-radius: 5px;
+    background-color: rgb(199, 20, 20);
+    font-weight: 700;
+    color: white;
+    border-style: none;
+}
+
+/* Home Section */
+.home{
+    background-image: url(./img/the-jopwell-collection-LJL7wx7PM3Y-unsplash\ \(1\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    }
+    .home .row{
+        padding-top: 200px;
+    }
+
+    .home h1{
+        color: blue;
+        font-weight: 900;
+        font-size: 70px;
+    }
+    .home p{
+        color: rgb(233, 15, 15);
+        font-weight: 700;
+    }
+    .home input{
+        width: 75%;
+        height: 71px;
+        border-style: none;
+        font-weight: 800;
+        font-style: oblique;
+    }
+    .btn3{
+        width: 23%;
+        height: 71px;
+        border-radius: 5px;
+        background-color: rgb(199, 20, 20);font-weight: 700;
+        color: white;
+        border-style: none;
+        margin-left: -4px;
+    }
+
+    /* About Section */
+    .about{
+        padding-top: 100px;
+    }
+    .col-md-5 img{
+        width: 400px;
+        height: 500px;
+    }
+
+    /* Services Section */
+    .partners{
+        padding-top: 100px;
+    }
+    .img{
+        width: 100%;
+        height: 350px;
+    }
+
+    .icons .bi{
+        font-size: 25px;
+    }
+/* Contact us */
+.contact{
+    padding-top: 100px;
+}
+
